@@ -28,4 +28,14 @@
         android:label="profile"
         tools:layout="@layout/fragment_profile"
         />
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.example.homework12.onBoarding.onBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding" />
+    <fragment
+        android:id="@+id/taskFragment3"
+        android:name="com.example.homework12.task.TaskFragment"
+        android:label="Task"
+        tools:layout="@layout/fragment_task" />
 </navigation>
